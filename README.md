@@ -1,5 +1,4 @@
-# reservation
-Hotel Reservation Application  (Otel Rezervasyon Uygulaması)
+# Hotel Reservation Application  (Otel Rezervasyon Uygulaması)
 
 ----English-----
 
@@ -28,18 +27,18 @@ Not:Dosya yolunda çift taksim kullanın
 
 
 
-Projenin Yapımında Kullanılan Araçlar
+## Projenin Yapımında Kullanılan Araçlar
 
 1)Visual Studio Community 2017  Version.15.8.7
 2)C# Version 7.3
 
 
-Problemin Kısa Tanımı
+## Problemin Kısa Tanımı
 
 Ağaç,heap,liste,hashtable gibi veri yapıları kullanılarak bir otel rezervasyon sistemi tasarlanması.Apriori algoritması kullanılarak tavsiye sistemi eklenmesi.Sistem kullanıcılarının yorumları göz önünde bulundurularak duygu analizi yapılması.
 
 
-Sınıfların ve Metodların Açıklanması
+## Sınıfların ve Metodların Açıklanması
 
 Class düzey;
 -Her ile ait turistik yer ağacının elemanlarının bulunduğu düzeylerle birlikte listelenmesinde kullanılır.Ağacın her nodunu ve düzeyini bir obje olarak tutar.
@@ -183,11 +182,11 @@ List_oluştur()
 Class test;
 -Dosyalardan verileri okuyup sistemi gerçekleyen class.
 
-GÖRÜŞ ANALİZİ
+### GÖRÜŞ ANALİZİ
 
 Kullanıcının girdiği paragraftaki tüm kelimeleri tek tek kontrol et. Pozitif kelime yüzdesi negatif kelime yüzdesinden fazla ise bu yorum olumlu bir yorumdur. Zaman ekleriyle beraber olumsuzluk eki içeren kelimeler  negatif içerikli kelimelerdir. Kelime zaman eki içeriyor fakat olumsuzluk eki bulundurmuyorsa bu kelime pozitif kelimelere eklenir.  (Örn.  Kullana-ma-dım => zaman+ olumsuzluk eki içerir , Kullan-dım  sadece zaman içerir.)
 
-ÖNERİ SİSTEMİ-1
+### ÖNERİ SİSTEMİ-1
 
 Birliktelik analizinde birçok algoritma itemlerin frekanslarından yararlanır. Apriori ve FP Growth Algoritması bunlardan biridir.Apriori Algoritmasını kısacak ifade edelim. 
 Tavsiye verilecek olan üyeyi al. Tüm üyelerin gittiği otelleri, frekansları ile tut. Frekansı destek değeri geçemeyen otelleri tavsiye havuzundan çıkar. Elimizde kalan otellerin kombinasyonlarını al. Bu kombinasyonları kullanıcıların gittiği oteller içinde ara.Buna göre tekrar bir frekans oluştur. Oluşturduğun frekanslar için bir sınır değeri belirle,sınır değer genellikle (destek değer/birlikteliği aranan elemanın frekansı) şeklindedir.Frekansı ve kombinasyondaki eleman sayısını çarp. Değeri en yüksek olan oteller kombinasyonunu tavsiye olarak öner.
@@ -195,7 +194,7 @@ Tavsiye verilecek olan üyeyi al. Tüm üyelerin gittiği otelleri, frekansları
 
 
 
-DOSYALAR VE AMAÇLARI
+## DOSYALAR VE AMAÇLARI
 
 1)Apriorisource.dat
 Kullanıcı ismi ve oda idlerini rezervasyonları kaydetmek içi tutan 	dosya.
@@ -232,56 +231,3 @@ Olumsuzluk eklerini yüklem kontrolü sağlayan eklerin bulunduğu veri dosyası
 
 12)Yerler.dat
 Turistik yerleri ve onlara ait otelleri tutan dosya.
-
-KULLANICI KATALOĞU
-
-![alt text](https://i.hizliresim.com/26W8yN.png)
-
-1)Arama girişi (Bu bölüme otel adı,turistik yer adı, şehir ve özellik yazabilirsiniz.)
-
-2)Ara Butonu
-
-3)Üye olma seçeneği
-
-4)Üyeliği bulunan kullanıcı girişi
-
-
-![alt text](https://i.hizliresim.com/lqPv2g.png)            ![alt text](https://i.hizliresim.com/nQ9LVB.png)
-
-Yeni Üye Formu								                                            Kulllanıcı Girişi
-                   
-![alt text](https://i.hizliresim.com/v6Andr.png)
-
-1)Yapılan Arama Sonuçları
-
-2)Fiyat Aralığı Seçimi
-
-3)Kullanıcıya özel seçenekler
-
-
-
- ![alt text](https://hizliresim.com/16aMm5)                       ![alt text](https://i.hizliresim.com/Ll817V.png) 
- 
-Çoklu Rezervasyon Sitemi		                                      Öneri Sistemi-1
-
- ![alt text](https://i.hizliresim.com/r5XZBP.png)
- 
-Admin Girişi
-
- ![alt text](https://i.hizliresim.com/P12P48.png)
- 
-Admin Oda Değişikliği Arayüzü
-
- ![alt text](https://i.hizliresim.com/grvZzN.png)
- 
-Kullanıcı Rezervasyon Arayüzü (Sadece üyeler rezervasyon butonlarını görebilir)
-
-
-
- ![alt text](https://i.hizliresim.com/9aW2X8.png)
- 
-Yorum Ekranı
-
- ![alt text](https://i.hizliresim.com/7aWMYa.png)
- 
-Postorder,Preorder ve Inorder ağaç gezme ekranı
