@@ -232,3 +232,56 @@ Olumsuzluk eklerini yüklem kontrolü sağlayan eklerin bulunduğu veri dosyası
 
 12)Yerler.dat
 Turistik yerleri ve onlara ait otelleri tutan dosya.
+
+KULLANICI KATALOĞU
+
+![alt text](https://i.hizliresim.com/26W8yN.png)
+
+1)Arama girişi (Bu bölüme otel adı,turistik yer adı, şehir ve özellik yazabilirsiniz.)
+
+2)Ara Butonu
+
+3)Üye olma seçeneği
+
+4)Üyeliği bulunan kullanıcı girişi
+
+
+![alt text](https://i.hizliresim.com/lqPv2g.png)            ![alt text](https://i.hizliresim.com/nQ9LVB.png)
+
+Yeni Üye Formu								                                            Kulllanıcı Girişi
+                   
+![alt text](https://i.hizliresim.com/v6Andr.png)
+
+1)Yapılan Arama Sonuçları
+
+2)Fiyat Aralığı Seçimi
+
+3)Kullanıcıya özel seçenekler
+
+
+
+ ![alt text](https://hizliresim.com/16aMm5)                       ![alt text](https://i.hizliresim.com/Ll817V.png) 
+ 
+Çoklu Rezervasyon Sitemi		                                      Öneri Sistemi-1
+
+ ![alt text](https://i.hizliresim.com/r5XZBP.png)
+ 
+Admin Girişi
+
+ ![alt text](https://i.hizliresim.com/P12P48.png)
+ 
+Admin Oda Değişikliği Arayüzü
+
+ ![alt text](https://i.hizliresim.com/grvZzN.png)
+ 
+Kullanıcı Rezervasyon Arayüzü (Sadece üyeler rezervasyon butonlarını görebilir)
+
+
+
+ ![alt text](https://i.hizliresim.com/9aW2X8.png)
+ 
+Yorum Ekranı
+
+ ![alt text](https://i.hizliresim.com/7aWMYa.png)
+ 
+Postorder,Preorder ve Inorder ağaç gezme ekranı
